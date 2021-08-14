@@ -2,12 +2,14 @@
     <h3>List of Posts</h3>
     <h4 *ngIf="posts?.length<=0; else postsTable">No data available</h4>
     <ng-template #postsTable>
-        <table class="table"> 
-            <thead>
-                <th>User ID</th>
-                <th>Id</th>
-                <th>Title</th>
-                <th>Body</th>
+        <table class="table table-bordered table-hover"> 
+            <thead class="thead-dark">
+                <tr>
+                    <th>User ID</th>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Body</th>
+                </tr>
                 
             </thead>
             <tbody>

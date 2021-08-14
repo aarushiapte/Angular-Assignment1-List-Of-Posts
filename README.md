@@ -1,4 +1,5 @@
 # ApiAsgn
+Angular app developed to fetch data from a dummy API and display List of Posts in a Table with pagination.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
